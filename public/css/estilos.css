@@ -1,0 +1,27 @@
+.changeIntColor{
+    background-color: rgb(173 173 173 / 61%);
+}
+
+.c{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.writeField{
+    border: 1px solid rgb(100, 250, 0);
+}
+
+textarea{
+    outline: none;
+}
+
+.error{
+    border: 1px solid rgb(250, 79, 0);
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alura Typer</title>
+    <link rel="stylesheet" href="/public/css/libs/materialize.min.css">
+    <link rel="stylesheet" href="/public/css/libs/google-fonts.css">
+    <link rel="stylesheet" href="/public/css/estilos.css">
+</head>
+<body>
+   <div class="container">
+        <h1 class="center">Alura Typer</h1>
+        <p class="frase center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ut dolorum voluptatum natus praesentium suscipit labore, necessitatibus reiciendis maxime beatae, impedit sapiente accusantium nostrum molestiae ea quo ad cupiditate. A?</p>
+
+        <ul class="center">
+            <li class="align">
+                <i class="material-icons">description</i>
+                <span id="tamanho-frase"></span> palavras
+            </li>
+            <li class="align">
+                <i class="material-icons">access_time</i>
+                <span id="seconds"></span>segundos
+            </li>
+        </ul>
+
+        <div class="container">
+            <textarea  id="contPalvras" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="container">
+            <ul class="center">
+                <li>
+                    <span id="feedback"></span>
+                </li>
+                <li>
+                    <span id="countCaracterMoment" ></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <a id="restart"  class="btn-floating btn-large waves-effect waves-light red"><i  class="material-icons c">cached</i></a>
+            
+        </div>
+   </div>
+
+   <section class="container" id="sectionTable">
+        
+    <div class="placar center">
+        <h4>Placar</h4>
+    </div>
+
+    <table class="centered bordered">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade de Caracteres</th>
+                <th>Remover</th>
+            </tr>
+           
+        </thead>
+        <tbody >
+        </tbody>
+        
+    </table>
+   </section>
+   <script src="/public/polifyl/includes.js"></script>
+   <script src="/public/js/jquery.js"></script>
+   <script src="/public/js/app.js"></script>
+</body>
+</html>
